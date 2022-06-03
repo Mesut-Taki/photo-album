@@ -1,0 +1,85 @@
+/************ GENRAL SETTINGS ************/
+
+:root {
+  --color1: #004ce5;
+  --color2: #4a80ee;
+  --color3: #003297;
+  --color4: #cecece;
+  --color5: #b5b5ea;
+  --color1-transparent-15: rgba(0, 76, 229, 0.15);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/************ FOOTER ************/
+.footer {
+  background-color: var(--color1);
+  padding: 2rem;
+
+  list-style-type: none;
+  width: 90rem;
+  margin-left: 13rem;
+}
+
+.footer-li {
+  list-style-type: none;
+  width: 10rem;
+  padding-left: 1rem;
+}
+
+footer ul {
+  list-style-type: none;
+}
+/************ HEADER ************/
+.header {
+  background-color: var(--color1);
+  list-style-type: none;
+  height: 4rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+.header .formCard {
+  text-align: center;
+}
+
+/************ SEARCH ************/
+.searchCard {
+  text-align: center;
+  align-items: center;
+  padding-right: 28rem;
+}
+.search {
+  text-align: center;
+  align-items: center;
+}
+/************ BODY-CARD************/
+.h5-6 {
+  text-align: center;
+}
+
+.col_album {
+  display: inline-block;
+  width: 40rem;
+  height: 20rem;
+  border-radius: 1rem;
+}
+
+.nav-link {
+  margin-right: 0;
+  padding-left: 8rem;
+}
+
+/************ HEADER ************/
+.me-auto {
+  padding-left: 18rem;
+}
+
+/************CAROUSEL ************/
+.carousel-item {
+  width: 37rem;
+  height: 20rem;
+}
